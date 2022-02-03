@@ -101,5 +101,26 @@ img {
       margin: 0;
     }
   
+    #lezioni .row img {
+      height: 40vw;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right,
+    #lezioni .row>.central,
+    #steps .row> .left,
+    #steps .row> .right,
+    #steps .row> .central,
+    #why .row> .first,
+    #why .row> .second,
+    #why .row> .third{
+      float:none;
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+    }
+
+
+
 
 }
