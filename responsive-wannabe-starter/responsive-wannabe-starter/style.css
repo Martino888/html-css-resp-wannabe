@@ -71,3 +71,35 @@ img {
 .clear {
   clear: both;
 }
+
+/*media queries*/
+
+@media screen and (max-width : 420px) {
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    margin-left: -50px;
+    }
+
+    .container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: burlywood;
+    }
+
+    .row{
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0;
+    }
+  
+
+}
